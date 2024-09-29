@@ -1,6 +1,6 @@
 <template>
   <div class="matiere-container">
-    <div class="matiere-content" style="background-color: #ECF8F6; color: black; width: 50%; margin-top: -10%;">
+    <div class="matiere-content scale-appear" style="background-color: #ECF8F6; color: black; width: 50%; margin-top: -10%;">
       <h1>Insertion Matière</h1>
       <form @submit.prevent="submitForm">
         <v-text-field v-model="state.rubrique" :error-messages="v$.rubrique.$errors.map(e => e.$message)"
@@ -79,6 +79,8 @@ async function submitForm() {
         prod: state.prod
       })
       console.log('Réponse du serveur:', response.data)
+      alert('Matière ajoutée avec succès');
+      console.log('Matière ajoutée avec succès');
       // router.push('/cout-direct')
     } catch (error) {
       console.error('Erreur lors de la soumission du formulaire:', error)

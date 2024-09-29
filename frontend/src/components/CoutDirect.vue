@@ -1,6 +1,6 @@
 <template>
   <div class="cout-direct-container">
-    <div class="cout-direct-content" style="background-color: #ECF8F6; color: black; margin-top: -10%;">
+    <div class="cout-direct-content scale-appear" style="background-color: #ECF8F6; color: black; margin-top: -10%;">
 
       <h1>Cout Direct</h1>
 
@@ -74,6 +74,8 @@ async function submitForm() {
         nombre_fini: state.nombre_fini
       });
       console.log('Réponse du serveur:', response.data);
+      alert('Cout Direct ajouté avec succès');
+
       // Gérez la réponse ici (par exemple, affichez un message de succès)
     } catch (error) {
       console.error('Erreur lors de la soumission du formulaire:', error);
@@ -96,5 +98,21 @@ async function submitForm() {
     max-width: 500px;
     /* Ajustez cette valeur selon vos besoins */
     padding: 20px;
+  }
+
+  .scale-appear {
+    animation: scaleAppear 0.3s cubic-bezier(0.0, 0.0, 0.2, 1);
+    transform-origin: center center;
+  }
+
+  @keyframes scaleAppear {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
   </style>

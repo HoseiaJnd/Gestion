@@ -27,7 +27,7 @@
         rel="noopener noreferrer"
         target="_blank"
       >
-       Nathalie License
+       Tojo , Herimbola , Hoseaia , François , Lita
       </a>
     </div>
   </v-footer>

@@ -15,7 +15,7 @@
           </div>
         </v-speed-dial>
       </template>
-      <v-app-bar-title style="margin-left: 5%;">Gestion de la production</v-app-bar-title>
+      <v-app-bar-title style="margin-left: 5%;">Gestion</v-app-bar-title>
     </v-app-bar>
 
     <!-- Affichage dynamique des composants -->
