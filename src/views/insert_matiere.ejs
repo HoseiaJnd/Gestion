@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertion Matière</title>
+</head>
+<body>
+    <h3>Insertion Matière</h3>
+    <form action="/matiere/insert" method="post">
+        <p>Rubrique: <input type="text" name="rubrique" required></p>
+        <p>Total valeur: <input type="number" name="total" required></p>
+        <p>Unité d'oeuvre: <input type="text" name="unite" required></p>
+        <p>Nature: 
+            <select name="nature" required>
+                <option value="v">Variable</option>
+                <option value="f">Fixe</option>
+            </select>
+        </p>
+        <p>ADM/DIST: %<input type="number" name="adm_dist" value="0"></p>
+        <p>Usine: %<input type="number" name="usine" value="0"></p>
+        <p>Production: %<input type="number" name="prod" value="0"></p>
+        <p><input type="submit" value="Ajouter"></p>
+    </form> 
+    <p><a href="/cout-direct">FINIR</a></p>
+</body>
+</html>
