@@ -52,12 +52,3 @@ create table cout_fini (
     cout_total decimal(20,2),
     cout_unitaire_final decimal(20,2)
 );
-
-create table admin (
- id serial primary key,
- nom varchar(50),
- mdp varchar(50)
-);
-
-insert into admin (nom, mdp) values
-    ('admin', 'admin');
