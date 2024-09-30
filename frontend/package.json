@@ -12,6 +12,8 @@
     "@vuelidate/validators": "^2.0.4",
     "axios": "^1.7.7",
     "frontend": "file:",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.3",
     "roboto-fontface": "*",
     "vue": "^3.4.31",
     "vue-router": "^4.4.5",
