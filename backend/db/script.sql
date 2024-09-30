@@ -70,4 +70,4 @@ create table cout_fini (
 
 -- Couts directs
     -- Tonnes de coton brut; Tonnes de coton traité; 500; 450
-    Tonnes de coton à transporter; Tonnes de coton transporté; 210; 210
+    -- Tonnes de coton à transporter; Tonnes de coton transporté; 210; 210
