@@ -52,3 +52,22 @@ create table cout_fini (
     cout_total decimal(20,2),
     cout_unitaire_final decimal(20,2)
 );
+
+-- Données à entrer dans les inputs
+    -- Achat de tracteur; 10000000; Tracteurs; F; 5; 10; 2
+    -- Achat de coton brut; 5000000; Tonnes; V; 3; 20; 15
+    -- Entretien des machines; 1500000; Interventions; F; 2; 12; 5
+    -- Frais de transport; 800000; Kilomètres; V; 4; 8; 10
+    -- Achat de pièces détachées; 2000000; Pièces; V; 3; 5; 7
+    -- Achat d'engrais; 3500000; Sacs; v; 3.5; 6; 8
+    -- Frais de publicité; 1000000; Campagnes; F; 5; 0; 0
+    -- Salaires des ouvriers; 6000000; Ouvriers; v; 0; 15; 5
+    -- Électricité usine; 2500000; Kilowattheures; f; 0; 20; 10
+    -- Location des entrepôts; 4000000; Mois; f; 2; 10; 3
+    -- Achat de carburant; 2000000; Litres; v; 1.5; 12; 7
+    -- Maintenance des véhicules; 1200000; Interventions; f; 2; 8; 4
+    -- Achat de semences; 2800000; Sacs; v; 4; 7; 9
+
+-- Couts directs
+    -- Tonnes de coton brut; Tonnes de coton traité; 500; 450
+    Tonnes de coton à transporter; Tonnes de coton transporté; 210; 210
